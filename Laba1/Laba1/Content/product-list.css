@@ -1,0 +1,9 @@
+﻿#CategoryMenu{
+    text-align: center;
+}
+
+b {
+    font-size: large;
+    font-style: normal;
+    cursor: pointer;
+}

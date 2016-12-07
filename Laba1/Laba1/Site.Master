@@ -50,6 +50,7 @@
                 <li><a runat="server" href="~/About.aspx">About</a></li>
                 <li><a runat="server" href="~/Shop">Shop</a></li>
                 <li><a runat="server" href="~/Contact">Contacts</a></li>
+                <li><a runat="server" href="~/ProductList.aspx">Products</a></li>
             </ul>
         </div>
         <div class="icon-menu">
@@ -61,6 +62,7 @@
         </asp:ContentPlaceHolder>
 
         <script src="Scripts/src/menu.js"></script>
+        <asp:ContentPlaceHolder ID="ScriptsSection" runat="server"></asp:ContentPlaceHolder>
     </form>
 </body>
 </html>
