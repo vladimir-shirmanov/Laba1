@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Web.ModelBinding;
 using Laba1.Models;
 
 namespace Laba1
@@ -19,6 +20,10 @@ namespace Laba1
                 new Category { CategoryId = 3, CategoryName = "Team games", Description = "Football, Volleyball, Basketball and others" },
                 new Category { CategoryId = 4, CategoryName = "Fighting", Description = "All sorts of equipment for any figting kind of sport" }
             };
+        }
+
+        public ICollection<Product> GetProducts([QueryString("id")] int? categoryId)
+        {
         }
     }
 }
