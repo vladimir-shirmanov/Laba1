@@ -1,0 +1,13 @@
+﻿.jumbotron { 
+    background-color: rgba(32, 32, 36, 0.6);
+    text-align: center;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-container{
+    margin: 0 auto;
+    width: 700px;
+}

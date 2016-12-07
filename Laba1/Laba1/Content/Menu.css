@@ -6,12 +6,9 @@
     width: 285px;
 }
 
-.jumbotron {
-    height: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+body {
+    background: #202024 url('http://i.stack.imgur.com/IehB7.png') repeat left top;
+    color: #fff;
 }
 
 .menu ul {
@@ -28,6 +25,10 @@
     padding-bottom: 3px;
     padding-left: 20px;
     padding-top: 3px;
+}
+
+.menu li:hover {
+    background-color: rgba(0,0,0,0.5);
 }
 
 .menu a {

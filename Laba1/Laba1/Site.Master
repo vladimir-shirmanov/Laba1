@@ -6,13 +6,13 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Sambo mix</title>
+    <title><%: Page.Title %> - Warrior sport shop</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
-    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
@@ -59,10 +59,6 @@
 
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         </asp:ContentPlaceHolder>
-        <hr />
-        <footer>
-            <p>&copy; <%: DateTime.Now.Year %> - Sambo mix</p>
-        </footer>
 
         <script src="Scripts/src/menu.js"></script>
     </form>
