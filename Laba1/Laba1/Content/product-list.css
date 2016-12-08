@@ -8,7 +8,7 @@ b {
     cursor: pointer;
 }
 
-img{
+.product-img{
     width:100px;
     height:75px;
     border: solid;

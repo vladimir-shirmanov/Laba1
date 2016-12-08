@@ -143,7 +143,12 @@
     <Content Include="Content\Images\slide1.jpg" />
     <Content Include="Content\Images\slide2.jpg" />
     <Content Include="Content\Images\slide3.jpg" />
+    <Content Include="Content\Images\Thumbs\fighting.png" />
+    <Content Include="Content\Images\Thumbs\fitness.jpeg" />
+    <Content Include="Content\Images\Thumbs\gym.png" />
+    <Content Include="Content\Images\Thumbs\teamgames.png" />
     <Content Include="Content\Menu.css" />
+    <Content Include="Content\product-detail.css" />
     <Content Include="Content\product-list.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\home-page.css" />
@@ -155,6 +160,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="ProductDetails.aspx" />
     <Content Include="ProductList.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -234,6 +240,13 @@
     </Compile>
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Product.cs" />
+    <Compile Include="ProductDetails.aspx.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductDetails.aspx.designer.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ProductList.aspx.cs">
       <DependentUpon>ProductList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -1,0 +1,9 @@
+﻿.bigImage{
+    border:solid;
+    height:300px;
+}
+
+.product-description{
+    vertical-align:top;
+    text-align:left;
+}

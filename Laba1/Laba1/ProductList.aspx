@@ -17,7 +17,7 @@
     </div>
 
     <section>
-        <div>
+        <div class="container">
             <hgroup>
                 <h2><%:Page.Title %></h2>
             </hgroup>
@@ -46,7 +46,7 @@
                             <tr>
                                 <td>
                                     <a href="ProductDetails.aspx?productId=<%#:Item.ProductId %>">
-                                        <img src="Content/Images/Tumbs/<%#:Item.ImagePath %>" />
+                                        <img class="product-img" src="Content/Images/Thumbs/<%#:Item.ImagePath %>" />
                                     </a>
                                 </td>
                             </tr>
