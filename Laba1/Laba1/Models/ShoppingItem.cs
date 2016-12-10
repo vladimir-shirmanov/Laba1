@@ -13,5 +13,7 @@ namespace Laba1.Models
         public DateTime DateCreated { get; set; }
 
         public Product Product { get; set; }
+
+        public int ProductId { get; set; }
     }
 }

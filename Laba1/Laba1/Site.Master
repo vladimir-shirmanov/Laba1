@@ -48,9 +48,8 @@
             <ul>
                 <li><a runat="server" href="~/">Home</a></li>
                 <li><a runat="server" href="~/About.aspx">About</a></li>
-                <li><a runat="server" href="~/Shop">Shop</a></li>
-                <li><a runat="server" href="~/Contact">Contacts</a></li>
                 <li><a runat="server" href="~/ProductList.aspx?id=1">Products</a></li>
+                <li><a runat="server" href="~/ShoppingCart.aspx" ID="cartCount">&nbsp;</a></li>
             </ul>
         </div>
         <div class="icon-menu">
